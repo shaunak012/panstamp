@@ -9,7 +9,7 @@ const Home1 = () => {
       <div className="taskbar">
         <h1>Pan Stamp</h1>
         <nav>
-          <Link to="/">Home</Link>
+          <Link to="/home1">Home</Link>
           <Link to="/profile">Profile</Link>
           <Link to="/products">Products</Link>
           <Link to="/contact">Contact Us</Link>

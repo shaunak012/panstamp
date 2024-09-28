@@ -42,7 +42,7 @@ const Home = () => {
             </section>
 
             {/* Footer Section */}
-            <footer className="footer">
+            <footer className="footer" style={{width:"100vw",position:"absolute", bottom:0}}>
                 <p>&copy; 2024 Government of India | All Rights Reserved</p>
                 <ul>
                     <li><a href="#privacy">Privacy Policy</a></li>

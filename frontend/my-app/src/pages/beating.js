@@ -5,7 +5,7 @@ const Taskbar = () => (
   <div className="taskbar">
     <h1>eBuy</h1>
     <nav>
-      <a href="/main">Home</a>
+      <a href="/home1">Home</a>
       <a href="/products">Products</a>
       <a href="/contact">Contact</a>
     </nav>

@@ -156,7 +156,7 @@ body {
   border: 4px solid #ff0000;
   background-size: cover;
   background-position: center;
-  background-image: url("mee.jpg"); /* Replace with your image path */
+  background-image: url("../../public/mee.jpg"); /* Replace with your image path */
 }
 
 .profile-details {
@@ -421,7 +421,7 @@ body {
   border: 4px solid #ff0000;
   background-size: cover;
   background-position: center;
-  background-image: url("mee.jpg"); /* Replace with your image path */
+  background-image: url("../../public/mee.jpg"); /* Replace with your image path */
 }
 
 .right-sidebar h2 {
@@ -488,7 +488,7 @@ body {
   .profile-pic-large {
     width: 60px;
     height: 60px;
-    background-image: url("mee.jpg"); /* Replace with your image path */
+    background-image: url("../../public/mee.jpg"); /* Replace with your image path */
   }
 }
 

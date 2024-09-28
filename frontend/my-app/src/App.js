@@ -11,37 +11,39 @@ import ProductPage from "./pages/beating";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        {/* Header Section */}
-        <header className="header">
-          <div className="logo">
-            <img src="/path-to-logo.png" alt="Government of India" />
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/login">Login</Link>
-              </li>
-              <li>
-                <Link to="/signup">Sign Up</Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
+      <div style={{width:"100vw"}}>
+        <BrowserRouter>
+          {/* Header Section */}
+          <header className="header">
+            <div className="logo">
+              <img src="/path-to-logo.png" alt="Government of India" />
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/login">Login</Link>
+                </li>
+                <li>
+                  <Link to="/signup">Sign Up</Link>
+                </li>
+              </ul>
+            </nav>
+          </header>
 
-        {/* Routes */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/home1" element={<Home1 />} />
-          <Route path="/product" element={<ProductPage />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
+          {/* Routes */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/home1" element={<Home1 />} />
+            <Route path="/product" element={<ProductPage />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
